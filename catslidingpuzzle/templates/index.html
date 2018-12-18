@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+	<title>Cat sliding tile puzzle</title>
+	<link href="css/styles.min.css" rel="stylesheet" type="text/css" />
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+	<div class="container">
+		<div class="nav">
+			<h4>Choose your cat</h4>
+				<div>
+					<img class="thumbnail thumbnail-barns" src="images/barns.jpg" alt="barns"/>
+				</div>
+				<div>
+					<img class="thumbnail thumbnail-chedda" src="images/chedda.jpg" alt="chedda"/>
+				</div>
+		</div>
+
+		<div class="main">
+			<div class="main-cat hide">
+				<h3>Let's put Barns back together</h3>
+				<div class="congratulate hide"><h3>Great job!</h3></div>
+				<div class="layout">
+					<div class="background background-barns">
+						<div class="container-tile">
+							<img class="tile" src="images/barns1.jpeg" alt="barns tile 1" />
+						</div><div class="container-tile">
+							<img class="tile" src="images/barns2.jpeg" alt="barns tile 2" />
+						</div><div class="container-tile">
+							<img class="tile" src="images/barns3.jpeg" alt="barns tile 3" />
+						</div><div class="container-tile">
+							<img class="tile" src="images/barns4.jpeg" alt="barns tile 4" />
+						</div><div class="container-tile">
+							<img class="tile" src="images/barns5.jpeg" alt="barns tile 5" />
+						</div><div class="container-tile">
+							<img class="tile" src="images/barns6.jpeg" alt="barns tile 6" />
+						</div>
+						<div class="container-tile">
+							<img class="tile" src="images/barns7.jpeg" alt="barns tile 7" />
+						</div><div class="container-tile">
+							<img class="tile" src="images/barns8.jpeg" alt="barns tile 8" />
+						</div>
+					</div>
+				</div>
+				<div class="menu-buttons">
+					<button class="btn shuffle">Shuffle</button>
+					<button class="btn solve">Solve</button>
+				</div>
+			</div>
+			<div class="main-cat hide">
+				<h3>Let's put Chedda back together</h3>
+				<div class="congratulate hide"><h3>Great job!</h3></div>
+				<div class="layout">
+					<div class="background background-chedda">
+						<div class="container-tile">
+							<img class="tile" src="images/chedda1.jpeg" alt="chedda tile 1" />
+						</div><div class="container-tile">
+							<img class="tile" src="images/chedda2.jpeg" alt="chedda tile 2" />
+						</div><div class="container-tile">
+							<img class="tile" src="images/chedda3.jpeg" alt="chedda tile 3" />
+						</div><div class="container-tile">
+							<img class="tile" src="images/chedda4.jpeg" alt="chedda tile 4" />
+						</div><div class="container-tile">
+							<img class="tile" src="images/chedda5.jpeg" alt="chedda tile 5" />
+						</div><div class="container-tile">
+							<img class="tile" src="images/chedda6.jpeg" alt="chedda tile 6" />
+						</div>
+						<div class="container-tile">
+							<img class="tile" src="images/chedda7.jpeg" alt="chedda tile 7" />
+						</div><div class="container-tile">
+							<img class="tile" src="images/chedda8.jpeg" alt="chedda tile 8" />
+						</div>
+					</div>
+				</div>
+				<div class="menu-buttons">
+					<button class="btn shuffle">Shuffle</button>
+					<button class="btn solve">Solve</button>
+				</div>
+			</div>
+			<div class="progress-ring hide" id="progress-ring"></div>
+		</div>
+	</div>
+	<script src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+	<script src="js/catSlidingPuzzle.min.js"></script>
+</body>
+</html>
